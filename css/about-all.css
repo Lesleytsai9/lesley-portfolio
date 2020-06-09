@@ -1,0 +1,263 @@
+/* fontawesome */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;700;900&display=swap');
+@import url("https://unpkg.com/pattern.css");
+
+
+*{
+	font-family: 'Fira Sans', sans-serif;
+	position: relative;
+	/* border: 1px solid #999; */
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+article{
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	background-color: #F5F3EE;
+	font-family: 'Noto Sans TC', sans-serif;
+	letter-spacing: 0.5px;
+}
+
+article > .about-open{
+	width: 100%;
+	height: auto;
+	background-color: #BED8D4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+article > .about-open > .profile{
+	background-image: url('../img/pro-pic.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+article > .pattern-diagonal-stripes-xl{
+	width: 100%;
+	height: 100%;
+	color: rgba(255, 255, 255, 0.1);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+article > .about-open > .profile{
+	width: 150px;
+	height: 150px;
+	background-color: #fa0;
+	border-radius: 100%;
+	margin: 150px auto 20px auto;
+	position: relative;
+	z-index: 99;
+}
+article > .about-open > .name{
+	text-align: center;
+	margin: 0 auto 50px auto;
+	position: relative;
+	z-index: 99;
+
+}
+article > .about-open > .name > h3{
+	font-size: 24px;
+	font-weight: 300;
+}
+article > .about-open > .name > h4{
+	font-size: 18px;
+	font-weight: 300;
+}
+article > .about-open > .name > p{
+	padding: 30px 0;
+	font-size: 14px;
+	font-weight: 300;
+}
+article > .about-open > .story{
+	max-width: 48%;
+	text-align: center;
+	margin-bottom: 100px;
+	position: relative;
+	z-index: 99;
+}
+article > .about-open > .story > p{
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.8px;
+}
+
+article > .paper{
+	max-width: 80%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 0px 10px;
+
+
+}
+article > .paper > .education,
+article > .paper > .work,
+article > .paper > .skill,
+article > .paper > .contact{
+	text-align: center;
+	padding: 35px 0 30px 0;
+}
+article > .paper hr{
+	width: 95%;
+	margin: 0 auto;
+}
+article > .paper h3{
+	padding-bottom: 30px;
+	font-size: 25px;
+	letter-spacing: 0.1em;
+	color: #B98B80;
+}
+article > .paper h4 {
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	color: #535353;
+	padding: 3px 0;
+}
+article > .paper > .work > .dana,
+article > .paper > .work > .gishin,
+article > .paper > .work > .ziza{
+	padding-bottom: 60px;
+}
+
+article > .paper p {
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	color: #646464;
+	padding: 3px 0;
+}
+
+article > .paper > .contact > h4{
+	font-weight: 300;
+	padding: 10px 0;
+}
+article > .paper > .skill > .skill-item{
+	width: 65%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+	padding-bottom: 30px;
+}
+article > .paper > .skill > .skill-item > .graphic,
+article > .paper > .skill > .skill-item > .program{
+	width: 290px;
+}
+article > .paper > .skill > .skill-item > .graphic > p,
+article > .paper > .skill > .skill-item > .program > p{
+	position: relative;
+	padding: 10px 0px;
+}
+article > .paper > .skill > .skill-item > .graphic > p::before,
+article > .paper > .skill > .skill-item > .program > p::before
+{
+	content: '';
+	width: 160px;
+	height: 1px;
+	background-color: #ccc;
+	position: absolute;
+	top: 22px;
+	left: 110px; 	
+}
+article > .paper > .skill > .skill-item > .graphic > p::after{
+	content: '';
+	width: 160px;
+	height: 3px;
+	background-color: #B98B80;
+	position: absolute;
+	top: 21px;
+	left: 110px; 
+}
+article > .paper > .skill > .skill-item > .graphic > p:nth-child(4)::after{
+	content: '';
+	width: 130px;
+	height: 3px;
+	background-color: #B98B80;
+	position: absolute;
+	top: 21px;
+	left: 110px; 
+}
+article > .paper > .skill > .skill-item > .program > p:nth-child(1)::after{
+	content: '';
+	width: 123px;
+	height: 3px;
+	background-color: #B98B80;
+	position: absolute;
+	top: 21px;
+	left: 110px; 
+}
+article > .paper > .skill > .skill-item > .program > p:nth-child(2)::after{
+	content: '';
+	width: 100px;
+	height: 3px;
+	background-color: #B98B80;
+	position: absolute;
+	top: 21px;
+	left: 110px; 
+}
+article > .paper > .skill > .skill-item > .program > p:nth-child(3)::after{
+	content: '';
+	width: 50px;
+	height: 3px;
+	background-color: #B98B80;
+	position: absolute;
+	top: 21px;
+	left: 110px; 
+}
+article > .paper > .skill > .skill-item > .program > p:nth-child(4)::after{
+	content: '';
+	width: 50px;
+	height: 3px;
+	background-color: #B98B80;
+	position: absolute;
+	top: 21px;
+	left: 110px; 
+}
+
+
+@media screen and (max-width: 900px) {
+	article > .paper > .skill > .skill-item{
+		width: 65%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: left;
+		padding-bottom: 30px;
+	}	
+}
+
+@media screen and (max-width: 700px) {
+	article > .about-open > .story{
+		max-width: 70%;
+	}
+	article > .paper{
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	article > .about-open > .story{
+		max-width: 85%;
+	}
+}
+
+
+
+
+
+
+
+

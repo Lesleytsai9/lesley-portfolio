@@ -1,0 +1,281 @@
+/* fontawesome */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;700;900&display=swap');
+@import url("https://unpkg.com/pattern.css");
+
+
+
+
+*{
+	font-family: 'Fira Sans', sans-serif;
+	position: relative;
+	/* border: 1px solid #999; */
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+article{
+	width: 100%;
+	height: auto;
+	background-color: #F5F3EE;
+}
+article > .container{
+	max-width: 1024px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+article > .container > .small-title{
+	color: #393E41;
+	font-size: 18px;
+	font-weight: 500;
+	padding-top: 120px;
+}
+article > .container > .title{
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #393E41;
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 5px;
+	padding-top: 10px;
+	text-align: center;
+}
+article > .container > .detail{
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align: center;
+	width: 70%;
+	color: #646464;
+	padding: 45px 0 30px 0;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.8em;
+	font-weight: 300;
+}
+article > .container > .out-web{
+	text-decoration: none;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align: center;
+	width: 70%;
+	color: #424242;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.8em;
+	font-weight: 500;
+	padding: 0px 0 30px 0;
+
+
+}
+article > .container > .picdetail{
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #787878;
+	font-size: 12px;
+	font-weight: 300; 
+	letter-spacing: 1px;
+}
+article > .container > .art-img{
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 20px 0px;
+}
+
+article > .container > .art-img1{
+	background-image: url('../img/social01.jpg');
+}
+article > .container > .art-img2{
+	background-image: url('../img/social02.png');
+}
+
+article > .container > .art-img3{
+	background-image: url('../img/social03.png');
+}
+article > .container > .art-img4{
+	background-image: url('../img/social04.png');
+}
+article > .container > .art-img5{
+	background-image: url('../img/social05.png');
+}
+article > .container > .art-img6{
+	background-image: url('../img/book01.png');
+}
+article > .container > .art-img7{
+	background-image: url('../img/book02.png');
+}
+article > .container > .art-img8{
+	background-image: url('../img/book03.png');
+}
+article > .container > .art-img9{
+	background-image: url('../img/book04.png');
+}
+article > .container > .art-img10{
+	background-image: url('../img/book05.png');
+}
+article > .container > .art-img11{
+	background-image: url('../img/da01.png');
+}
+article > .container > .art-img12{
+	background-image: url('../img/da02.png');
+}
+article > .container > .art-img13{
+	background-image: url('../img/da03.png');
+}
+article > .container > .art-img14{
+	background-image: url('../img/da04.png');
+}
+article > .container > .art-img15{
+	background-image: url('../img/da05.png');
+}
+article > .container > .art-img16{
+	background-image: url('../img/adad01.png');
+}
+article > .container > .art-img17{
+	background-image: url('../img/ad02.png');
+}
+article > .container > .art-img18{
+	background-image: url('../img/ad03.png');
+}
+article > .container > .art-img19{
+	background-image: url('../img/lay01.png');
+}
+article > .container > .art-img20{
+	background-image: url('../img/lay02.png');
+}
+article > .container > .art-img21{
+	background-image: url('../img/lay03.png');
+}
+article > .container > .art-img22{
+	background-image: url('../img/lay04.png');
+}
+article > .container > .art-img23{
+	background-image: url('../img/lay05.png');
+}
+article > .container > .art-img24{
+	background-image: url('../img/lay06.png');
+}
+article > .container > .art-img25{
+	background-image: url('../img/lay07.png');
+}
+article > .container > .art-img26{
+	background-image: url('../img/lay08.png');
+}
+article > .container > .art-img27{
+	background-image: url('../img/illu01.png');
+}
+article > .container > .art-img28{
+	background-image: url('../img/illu02.png');
+}
+article > .container > .art-img29{
+	background-image: url('../img/illu03.png');
+}
+article > .container > .art-img30{
+	background-image: url('../img/mine01.png');
+}
+article > .container > .art-img31{
+	background-image: url('../img/mine02.png');
+}
+article > .container > .art-img32{
+	background-image: url('../img/woogi01.png');
+}
+article > .container > .art-img33{
+	background-image: url('../img/woogi02.png');
+}
+article > .container > .art-img34{
+	background-image: url('../img/yuli001.png');
+}
+article > .container > .art-img35{
+	background-image: url('../img/yuli002.png');
+}
+article > .container > .art-img36{
+	background-image: url('../img/mine03.png');
+	width: 100%;
+	height: 2700px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 20px 0px;
+}
+article > .container > .art-img37{
+	background-image: url('../img/woogi03.png');
+	width: 100%;
+	height: 2700px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 20px 0px;
+}
+article > .container > .art-img38{
+	background-image: url('../img/yuli003.png');
+	width: 100%;
+	height: 2700px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 20px 0px;
+}
+/* 967尺寸------------------------- */
+
+@media screen and (max-width: 967px) {
+	article > .container{
+		max-width: 967px;
+	}
+	article > .container > .art-img{
+		height: 580px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	article > .container{
+		max-width: 768px;
+	}
+	article > .container > .art-img{
+		height: 450px;
+	}
+}
+@media screen and (max-width: 680px) {
+	article > .container{
+		max-width: 680px;
+	}
+	article > .container > .art-img{
+		height: 310px;
+	}
+}
+@media screen and (max-width: 414px) {
+	article > .container{
+		max-width: 414px;
+	}
+	article > .container > .art-img{
+		height: 270px;
+	}
+}
+@media screen and (max-width: 375px) {
+	article > .container{
+		max-width: 375px;
+	}
+	article > .container > .art-img{
+		height: 250px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
